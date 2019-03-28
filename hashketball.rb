@@ -148,17 +148,7 @@ end
  
 shoe_size("Brendon Haywood")
 
-def shoe_size(player_name) 
-  game_hash.each do |teams_playing, data|
-    data[:players].each do |player_name, player_data|
-      if player_name == name
-        return game_hash[teams_playing][:players][name][:shoe_size]
-      end
-    end
-  end
-end
- 
-shoe_size("Brendon Haywood")
+
 
 
 
