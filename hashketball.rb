@@ -125,7 +125,7 @@ end
 def num_points_scored(name) 
   hash = game_hash
   game_hash.each do |teams_playing, data| 
-#using each will return the specified 
+#using each will return the specific vaule of 
     
     data[:players].each do |player_name, player_data|
       if  player_name == name
