@@ -147,23 +147,3 @@ def shoe_size(player_name)
 end
 
 shoe_size("Jeff Adrien")
-
-def shoe_size(player_name)
-  game_hash.each do |team, players|
-    players[:players].each do |name, info|
-      if name == player_name
-        return info[:shoe]
-      end
-    end
-  end
-end
-
-def team_colors(team_name)
-  game_hash.each do |team, players|
-    players[:players].each do |name, info|
-      if name == player_name
-        return info[:]
-
-
-
-   
