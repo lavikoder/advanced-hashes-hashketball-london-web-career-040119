@@ -147,3 +147,6 @@ def shoe_size(player_name)
 end
 
 shoe_size("Jeff Adrien")
+
+def team_colours
+  game_hash.each do |home, away| 
